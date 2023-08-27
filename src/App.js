@@ -1,15 +1,15 @@
 
 import './App.css';
-
+import './header.js';
+import './nav.js';
+import './footer.js';
+import './main.js';
 function App() {
   return (
-    <div className="App">
-     homepage
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header/>;
+    <nav/>;
+    <footer/>;
+    <main/> ;
   );
 }
 
